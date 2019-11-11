@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Thruway\\Transport\\' => array($vendorDir . '/thruway/ratchet-transport/src'),
+    'Thruway\\Transport\\' => array($vendorDir . '/thruway/pawl-transport/src', $vendorDir . '/thruway/ratchet-transport/src'),
     'Thruway\\' => array($vendorDir . '/thruway/client/src', $vendorDir . '/voryx/thruway/src', $vendorDir . '/voryx/thruway-common/src'),
     'Symfony\\Polyfill\\Php72\\' => array($vendorDir . '/symfony/polyfill-php72'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
@@ -24,6 +24,7 @@ return array(
     'React\\Dns\\' => array($vendorDir . '/react/dns/src'),
     'React\\Cache\\' => array($vendorDir . '/react/cache/src'),
     'Ratchet\\RFC6455\\' => array($vendorDir . '/ratchet/rfc6455/src'),
+    'Ratchet\\Client\\' => array($vendorDir . '/ratchet/pawl/src'),
     'Ratchet\\' => array($vendorDir . '/cboden/ratchet/src/Ratchet'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
