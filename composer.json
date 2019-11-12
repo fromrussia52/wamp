@@ -1,6 +1,11 @@
 {
     "require": {
         "voryx/thruway": "^0.5.3",
-        "thruway/pawl-transport": "^0.5.1"
+        "thruway/pawl-transport": "^0.5.1",
+	"doctrine/orm": "*",
+	"doctrine/phpcr-odm": "~1.2",
+	"jackalope/jackalope-doctrine-dbal": "~1.1",
+        "symfony/yaml": "^4.3",
+        "phpcr/phpcr-shell": "^1.1"
     }
 }
